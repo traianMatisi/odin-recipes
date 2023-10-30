@@ -1,73 +1,77 @@
 @charset "utf-8";
+@font-face {
+    font-family: Norse;
+    src: url(..\_fonts\Norse.otf);
+}
 
 body {
-    background-color: #deb887ff;
+    background: linear-gradient( 90deg, rgb(82, 56, 24) 10%, rgb(175, 120, 48), rgb(82, 69, 52) 90%);
+}
+
+header {
+    margin: auto;
+    max-width: fit-content;
+}
+
+.odin {
+    width: 400px;
+    border: none;
+    margin-bottom: -40px;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-left: 125px;
-    margin-bottom: 0px;
+    text-align: center;
+    font-family: Norse;
+    color: rgb(245, 179, 94)
 }
     
 h2 {
     margin: 0px;
 }
 
-h4 {
-    margin: 0px;
-    padding: 0px;
+h3, figcaption {
+    text-align: center;
+    font-family: Norse;
+    color:rgb(245, 179, 94)
 }
 
-div#site {
+h4 {
+    text-align: center;
+}
+
+img {
+    border: 4px double rgb(240, 180, 103);
+    width: 200px;
+}
+
+.figures {
+    max-width: fit-content;
+    margin: auto;
+}
+
+figure {
+    display: inline-block;
+}
+
+#site {
     background-color: #454545ff;
     border: 4px solid #ff0000ff;
 }
 
-div#ingredients {
+#ingredients {
+    max-width: 500px;
     background-color: #0000ffff;
     border: 2px solid #000000ff;
-    float: left;
     padding: 10px;
-    margin: 10px;
-    height: 240px;
+    float: left;
+    margin: auto;
 }
 
-div#modus-operandi {
+#modus-operandi {
+    max-width: 500px;
     background-color: #ff00ffff;
     border: 2px solid #000000ff;
     padding: 10px;
-    margin: 10px;
+    float: right;
+    margin: auto;
 }
-
-img {;
-    width: 200px;
-}
-
-/*
-img#img-lasagna {
-    height: 300px;
-    border: 4px solid #00ff00ff;
-    width: auto;
-    position: relative;
-    left: 60px;
-    top: -30px;
-}
-
-img#img-strogonoff {
-    height: 300px;
-    border: 4px solid #00ff00ff;
-    width: auto;
-    position: relative;
-    left: 60px;
-    top: -30px;
-}
-
-img#img-steak {
-    height: 300px;
-    border: 4px solid #00ff00ff;
-    width: auto;
-    position: relative;
-    left: 60px;
-    top: -30px;
-}*/
