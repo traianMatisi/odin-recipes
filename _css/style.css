@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient( 90deg, rgb(82, 56, 24) 10%, rgb(175, 120, 48), rgb(82, 69, 52) 90%);
+    background: linear-gradient(90deg, rgb(82, 56, 24) 10%, rgb(175, 120, 48), rgb(82, 69, 52) 90%);
 }
 
 header {
@@ -37,6 +37,10 @@ h3, figcaption {
 
 h4 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
