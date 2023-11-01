@@ -11,6 +11,11 @@ body {
     min-width: 880px;
 }
 
+#body {
+    width: 800PX;
+    margin: 40px auto;
+}
+
 header {
     margin: auto;
     max-width: fit-content;
