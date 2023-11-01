@@ -28,6 +28,11 @@ header {
     margin: -70px;
 }
 
+.odin.home {
+    width: 200px;
+    margin: auto 13% -100px;
+}
+
 h1 {
     text-align: center;
     font-family: Norse;
