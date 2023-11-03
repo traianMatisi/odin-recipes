@@ -6,19 +6,20 @@
 
 body {
     background: linear-gradient(90deg, rgb(82, 56, 24) 10%, rgb(175, 120, 48), rgb(82, 69, 52) 90%);
+    background-repeat: no-repeat-x;
     border: 2px double rgb(100, 74, 39);
     margin: 50px 10% 0px;
     min-width: 880px;
 }
 
 #body {
-    width: 800PX;
+    width: fit-content;
     margin: 40px auto;
 }
 
 header {
     margin: auto;
-    max-width: fit-content;
+    width: fit-content;
 }
 
 .odin {
@@ -97,12 +98,12 @@ a {
 }
 
 div {
-    max-width: fit-content;
+    width: fit-content;
     margin: auto;
 }
 
-figure {
-    display: inline-block;
+.figures {
+    display: flex;
 }
 
 footer {
